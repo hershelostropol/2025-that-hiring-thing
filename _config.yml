@@ -1,0 +1,28 @@
+# GitHub Pages Configuration for That Hiring Thing Research
+
+title: "That Hiring Thing - Cyber Intelligence Research"
+description: "Research findings on fraudulent interview campaigns and social engineering attacks"
+author: "Hershel Ostropol"
+email: "238767152+hershelostropol@users.noreply.github.com"
+
+# GitHub Pages settings
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation
+nav_external_links:
+  - title: "GitHub Repository"
+    url: "https://github.com/hershelostropol/2025-that-hiring-thing"
+
+# Search
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+
+# Footer
+footer_content: "Research conducted by Hershel Ostropol for defensive security purposes only."
+
+# Colors
+color_scheme: dark
